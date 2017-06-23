@@ -1,2 +1,2 @@
 # hello-world
-This repository is to study and practice Python Programming Language
+This repository is a place to record my studies and practices of Python Programming Language
