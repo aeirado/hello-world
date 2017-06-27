@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add	../ex21.py	/^def add(a, b):$/;"	kind:function	line:1
+adds	../ex21.py	/^adds = add(30, 20)$/;"	kind:variable	line:48
+age	../ex21.py	/^age = add(30, 5)$/;"	kind:variable	line:24
+age	../ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
+average_passengers_per_car	../ex4.py	/^average_passengers_per_car = passengers \/ cars_driven$/;"	kind:variable	line:10
+carpool_capacity	../ex4.py	/^carpool_capacity = cars_driven * space_in_car$/;"	kind:variable	line:9
+cars	../ex4.py	/^cars = 100$/;"	kind:variable	line:3
+cars_driven	../ex4.py	/^cars_driven = drivers$/;"	kind:variable	line:8
+cars_not_driven	../ex4.py	/^cars_not_driven = cars - drivers$/;"	kind:variable	line:7
+computer	../ex14.py	/^computer = raw_input(prompt)$/;"	kind:variable	line:16
+copy_file.py	../copy_file.py	1;"	kind:file	line:1
+divide	../ex21.py	/^def divide(a, b):$/;"	kind:function	line:16
+divs	../ex21.py	/^divs = divide(270, 3)$/;"	kind:variable	line:54
+drivers	../ex4.py	/^drivers = 30$/;"	kind:variable	line:5
+ex1.py	../ex1.py	1;"	kind:file	line:1
+ex10.py	../ex10.py	1;"	kind:file	line:1
+ex11.py	../ex11.py	1;"	kind:file	line:1
+ex12.py	../ex12.py	1;"	kind:file	line:1
+ex13.py	../ex13.py	1;"	kind:file	line:1
+ex14.py	../ex14.py	1;"	kind:file	line:1
+ex15.py	../ex15.py	1;"	kind:file	line:1
+ex16.py	../ex16.py	1;"	kind:file	line:1
+ex16_read_.py	../ex16_read_.py	1;"	kind:file	line:1
+ex17.py	../ex17.py	1;"	kind:file	line:1
+ex18.py	../ex18.py	1;"	kind:file	line:1
+ex2.py	../ex2.py	1;"	kind:file	line:1
+ex21.py	../ex21.py	1;"	kind:file	line:1
+ex3.py	../ex3.py	1;"	kind:file	line:1
+ex4.py	../ex4.py	1;"	kind:file	line:1
+ex5.py	../ex5.py	1;"	kind:file	line:1
+ex7.py	../ex7.py	1;"	kind:file	line:1
+ex8.py	../ex8.py	1;"	kind:file	line:1
+ex9.py	../ex9.py	1;"	kind:file	line:1
+eyes	../ex5.py	/^eyes = 'Blue'$/;"	kind:variable	line:5
+file_again	../ex15.py	/^file_again = raw_input("> ")$/;"	kind:variable	line:12
+formula	../ex21.py	/^formula = 50 + (200 - (130 * (90 \/ 3)))$/;"	kind:variable	line:42
+formula_functions	../ex21.py	/^formula_functions = add(adds, subtract(subs, multiply(mults, divide(divs, 3))))$/;"	kind:variable	line:58
+hair	../ex5.py	/^hair = 'Brown'$/;"	kind:variable	line:7
+height	../ex21.py	/^height = subtract(78, 4)$/;"	kind:variable	line:25
+height	../ex5.py	/^height = 74 # inches$/;"	kind:variable	line:3
+height_inches2centimeters	../ex5.py	/^height_inches2centimeters = height * 2.54$/;"	kind:variable	line:8
+in_file	../ex17.py	/^in_file = open(from_file)$/;"	kind:variable	line:9
+indata	../ex17.py	/^indata = in_file.read()$/;"	kind:variable	line:10
+iq	../ex21.py	/^iq = divide(100, 2)$/;"	kind:variable	line:27
+likes	../ex14.py	/^likes = raw_input(prompt)$/;"	kind:variable	line:10
+line1	../ex16.py	/^line1 = raw_input("line 1: ")$/;"	kind:variable	line:19
+line2	../ex16.py	/^line2 = raw_input("line 2: ")$/;"	kind:variable	line:20
+line3	../ex16.py	/^line3 = raw_input("line 3: ")$/;"	kind:variable	line:21
+lives	../ex14.py	/^lives = raw_input(prompt)$/;"	kind:variable	line:13
+multiply	../ex21.py	/^def multiply(a, b):$/;"	kind:function	line:11
+mults	../ex21.py	/^mults = multiply(65, 2)$/;"	kind:variable	line:52
+name	../ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
+out_file	../ex17.py	/^out_file = open(to_file, 'w')$/;"	kind:variable	line:18
+passengers	../ex4.py	/^passengers = 90$/;"	kind:variable	line:6
+print_none	../ex18.py	/^def print_none():$/;"	kind:function	line:15
+print_one	../ex18.py	/^def print_one(arg1):$/;"	kind:function	line:11
+print_two	../ex18.py	/^def print_two(*args):$/;"	kind:function	line:2
+print_two_again	../ex18.py	/^def print_two_again(arg1, arg2):$/;"	kind:function	line:7
+prompt	../ex14.py	/^prompt = '> '$/;"	kind:variable	line:5
+space_in_car	../ex4.py	/^space_in_car = 4.0$/;"	kind:variable	line:4
+subs	../ex21.py	/^subs = subtract(270, 70)$/;"	kind:variable	line:50
+subtract	../ex21.py	/^def subtract(a, b):$/;"	kind:function	line:6
+target	../ex16.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
+teeth	../ex5.py	/^teeth = "White"$/;"	kind:variable	line:6
+text	../ex16_read_.py	/^text = txt.read()$/;"	kind:variable	line:8
+txt	../ex15.py	/^txt = open(filename)$/;"	kind:variable	line:5
+txt	../ex16_read_.py	/^txt = open(filename)$/;"	kind:variable	line:4
+txt_again	../ex15.py	/^txt_again = open(file_again)$/;"	kind:variable	line:14
+weight	../ex21.py	/^weight = multiply(90, 2)$/;"	kind:variable	line:26
+weight	../ex5.py	/^weight = 180 # lbs$/;"	kind:variable	line:4
+weight_lbs2kg	../ex5.py	/^weight_lbs2kg = weight * 0.453592$/;"	kind:variable	line:9
+what	../ex21.py	/^what = add(age, subtract(height, multiply(weight, divide(iq, 2))))$/;"	kind:variable	line:37
