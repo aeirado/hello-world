@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+age	../ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
+binary	../ex6.py	/^binary = "binary"$/;"	kind:variable	line:4
+do_not	../ex6.py	/^do_not = "don't"$/;"	kind:variable	line:5
+e	../ex6.py	/^e = "a string with a right side."$/;"	kind:variable	line:21
+ex1.py	../ex1.py	1;"	kind:file	line:1
+ex10.py	../ex10.py	1;"	kind:file	line:1
+ex11.py	../ex11.py	1;"	kind:file	line:1
+ex12.py	../ex12.py	1;"	kind:file	line:1
+ex13.py	../ex13.py	1;"	kind:file	line:1
+ex14.py	../ex14.py	1;"	kind:file	line:1
+ex15.py	../ex15.py	1;"	kind:file	line:1
+ex2.py	../ex2.py	1;"	kind:file	line:1
+ex3.py	../ex3.py	1;"	kind:file	line:1
+ex4.py	../ex4.py	1;"	kind:file	line:1
+ex5.py	../ex5.py	1;"	kind:file	line:1
+ex6.py	../ex6.py	1;"	kind:file	line:1
+ex7.py	../ex7.py	1;"	kind:file	line:1
+ex8.py	../ex8.py	1;"	kind:file	line:1
+ex9.py	../ex9.py	1;"	kind:file	line:1
+eyes	../ex5.py	/^eyes = 'Blue'$/;"	kind:variable	line:7
+hair	../ex5.py	/^hair = 'Brown'$/;"	kind:variable	line:9
+height	../ex5.py	/^height = 74 # inches$/;"	kind:variable	line:3
+height_cm	../ex5.py	/^height_cm = height * 2.54$/;"	kind:variable	line:4
+hilarious	../ex6.py	/^hilarious = False$/;"	kind:variable	line:14
+joke_evaluation	../ex6.py	/^joke_evaluation = "Isn't that joke so funny?! {}"$/;"	kind:variable	line:16
+name	../ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
+name	../ex7.py	/^name = input("Who?: ")$/;"	kind:variable	line:12
+subjective_state	../ex7.py	/^\\tBe frank!!! >>> ")$/;"	kind:variable	line:16
+teeth	../ex5.py	/^teeth = 'White'$/;"	kind:variable	line:8
+total	../ex5.py	/^total = age + height + weight$/;"	kind:variable	line:19
+types_of_people	../ex6.py	/^types_of_people = 10$/;"	kind:variable	line:1
+w	../ex6.py	/^w = "This is the left side of..."$/;"	kind:variable	line:20
+weight	../ex5.py	/^weight = 180 # lbs$/;"	kind:variable	line:5
+weight_kg	../ex5.py	/^weight_kg = weight * 0.45359237$/;"	kind:variable	line:6
+x	../ex6.py	/^x = f"There are {types_of_people} types of people."$/;"	kind:variable	line:2
+y	../ex6.py	/^y = f"Those who know {binary} and those who {do_not}."$/;"	kind:variable	line:6
