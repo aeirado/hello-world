@@ -5,9 +5,11 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 age	../ex11.py	/^age = input()$/;"	kind:variable	line:2
+age	../ex12.py	/^age = input("How old are you?")$/;"	kind:variable	line:1
 age	../ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
 binary	../ex6.py	/^binary = "binary"$/;"	kind:variable	line:4
 blackslash_cat	../ex10.py	/^blackslash_cat = "I'm \\\\ a \\\\ cat."$/;"	kind:variable	line:3
+cave_inp	../zork-py-master/zork.py	/^			cave_inp = input("What do you do? ")$/;"	kind:variable	line:144
 do_not	../ex6.py	/^do_not = "don't"$/;"	kind:variable	line:5
 e	../ex6.py	/^e = "a string with a right side."$/;"	kind:variable	line:21
 ex1.py	../ex1.py	1;"	kind:file	line:1
@@ -17,32 +19,106 @@ ex12.py	../ex12.py	1;"	kind:file	line:1
 ex13.py	../ex13.py	1;"	kind:file	line:1
 ex14.py	../ex14.py	1;"	kind:file	line:1
 ex15.py	../ex15.py	1;"	kind:file	line:1
+ex16.py	../ex16.py	1;"	kind:file	line:1
+ex17.py	../ex17.py	1;"	kind:file	line:1
+ex18.py	../ex18.py	1;"	kind:file	line:1
+ex19.py	../ex19.py	1;"	kind:file	line:1
 ex2.py	../ex2.py	1;"	kind:file	line:1
+ex20.py	../ex20.py	1;"	kind:file	line:1
+ex21.py	../ex21.py	1;"	kind:file	line:1
+ex22.py	../ex22.py	1;"	kind:file	line:1
+ex23.py	../ex23.py	1;"	kind:file	line:1
+ex24.py	../ex24.py	1;"	kind:file	line:1
+ex25.py	../ex25.py	1;"	kind:file	line:1
+ex26.py	../ex26.py	1;"	kind:file	line:1
+ex27.py	../ex27.py	1;"	kind:file	line:1
+ex28.py	../ex28.py	1;"	kind:file	line:1
+ex29.py	../ex29.py	1;"	kind:file	line:1
 ex3.py	../ex3.py	1;"	kind:file	line:1
+ex30.py	../ex30.py	1;"	kind:file	line:1
+ex31.py	../ex31.py	1;"	kind:file	line:1
+ex32.py	../ex32.py	1;"	kind:file	line:1
+ex33.py	../ex33.py	1;"	kind:file	line:1
+ex34.py	../ex34.py	1;"	kind:file	line:1
+ex35.py	../ex35.py	1;"	kind:file	line:1
 ex4.py	../ex4.py	1;"	kind:file	line:1
 ex5.py	../ex5.py	1;"	kind:file	line:1
 ex6.py	../ex6.py	1;"	kind:file	line:1
 ex7.py	../ex7.py	1;"	kind:file	line:1
 ex8.py	../ex8.py	1;"	kind:file	line:1
 ex9.py	../ex9.py	1;"	kind:file	line:1
+exit_inp	../zork-py-master/zork.py	/^		exit_inp = input("Do you want to continue? Y\/N ")$/;"	kind:variable	line:199
 eyes	../ex5.py	/^eyes = 'Blue'$/;"	kind:variable	line:7
+first	../zork-py-master/zork.py	/^	first = input("What do you do? ")$/;"	kind:variable	line:14
+forest_inp	../zork-py-master/zork.py	/^			forest_inp = input("What do you do? ")$/;"	kind:variable	line:100
+grating_inp	../zork-py-master/zork.py	/^			grating_inp = input("What do you do? ")$/;"	kind:variable	line:126
 hair	../ex5.py	/^hair = 'Brown'$/;"	kind:variable	line:9
 height	../ex11.py	/^height = input()$/;"	kind:variable	line:4
+height	../ex12.py	/^height = input("How tall are you?")$/;"	kind:variable	line:2
 height	../ex5.py	/^height = 74 # inches$/;"	kind:variable	line:3
 height_cm	../ex5.py	/^height_cm = height * 2.54$/;"	kind:variable	line:4
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:61
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:65
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:69
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:73
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:77
+hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:81
 hilarious	../ex6.py	/^hilarious = False$/;"	kind:variable	line:14
 joke_evaluation	../ex6.py	/^joke_evaluation = "Isn't that joke so funny?! {}"$/;"	kind:variable	line:16
+last_inp	../zork-py-master/zork.py	/^			last_inp = input("What do you do? ")$/;"	kind:variable	line:190
+line1	../ex16.py	/^line1 = input("line 1: ")$/;"	kind:variable	line:19
+line2	../ex16.py	/^line2 = input("line 2: ")$/;"	kind:variable	line:20
+line3	../ex16.py	/^line3 = input("line 3: ")$/;"	kind:variable	line:21
+loop	../zork-py-master/zork.py	/^				loop = 3$/;"	kind:variable	line:176
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:132
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:150
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:154
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:158
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:162
+loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:181
+loop	../zork-py-master/zork.py	/^			loop = 11$/;"	kind:variable	line:146
+loop	../zork-py-master/zork.py	/^			loop = 11$/;"	kind:variable	line:164
+loop	../zork-py-master/zork.py	/^			loop = 11$/;"	kind:variable	line:166
+loop	../zork-py-master/zork.py	/^			loop = 11$/;"	kind:variable	line:178
+loop	../zork-py-master/zork.py	/^			loop = 11$/;"	kind:variable	line:196
+loop	../zork-py-master/zork.py	/^			loop = 3$/;"	kind:variable	line:204
+loop	../zork-py-master/zork.py	/^			loop = 4$/;"	kind:variable	line:87
+loop	../zork-py-master/zork.py	/^			loop = 4$/;"	kind:variable	line:92
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:104
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:108
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:112
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:117
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:83
+loop	../zork-py-master/zork.py	/^			loop = 8$/;"	kind:variable	line:89
+loop	../zork-py-master/zork.py	/^			loop = 9	$/;"	kind:variable	line:135
+loop	../zork-py-master/zork.py	/^			loop = 9$/;"	kind:variable	line:114
+loop	../zork-py-master/zork.py	/^			loop = 9$/;"	kind:variable	line:130
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:18
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:22
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:26
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:30
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:34
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:38
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:42
+loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:47
+loop	../zork-py-master/zork.py	/^		loop = 8$/;"	kind:variable	line:44
+loop	../zork-py-master/zork.py	/^loop = 3$/;"	kind:variable	line:3
 name	../ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
 name	../ex7.py	/^name = input("Who?: ")$/;"	kind:variable	line:12
 persian_cat	../ex10.py	/^persian_cat = "I'm split\\non a line."$/;"	kind:variable	line:2
+second	../zork-py-master/zork.py	/^			second = input("What do you do? ")$/;"	kind:variable	line:57
 subjective_state	../ex7.py	/^\\tBe frank!!! >>> ")$/;"	kind:variable	line:16
+suicide_inp	../zork-py-master/zork.py	/^			suicide_inp = input("Do you want to continue? Y\/N ")$/;"	kind:variable	line:171
 tabby_cat	../ex10.py	/^tabby_cat = "\\tI'm tabbed in."$/;"	kind:variable	line:1
+target	../ex16.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
 teeth	../ex5.py	/^teeth = 'White'$/;"	kind:variable	line:8
 total	../ex5.py	/^total = age + height + weight$/;"	kind:variable	line:19
 types_of_people	../ex6.py	/^types_of_people = 10$/;"	kind:variable	line:1
 w	../ex6.py	/^w = "This is the left side of..."$/;"	kind:variable	line:20
 weight	../ex11.py	/^weight = input()$/;"	kind:variable	line:6
+weight	../ex12.py	/^weight = input("How much do you weigh?")$/;"	kind:variable	line:3
 weight	../ex5.py	/^weight = 180 # lbs$/;"	kind:variable	line:5
 weight_kg	../ex5.py	/^weight_kg = weight * 0.45359237$/;"	kind:variable	line:6
 x	../ex6.py	/^x = f"There are {types_of_people} types of people."$/;"	kind:variable	line:2
 y	../ex6.py	/^y = f"Those who know {binary} and those who {do_not}."$/;"	kind:variable	line:6
+zork.py	../zork-py-master/zork.py	1;"	kind:file	line:1
