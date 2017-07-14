@@ -1,0 +1,27 @@
+Reading and Writing Files
+Methods/Functions
+. close - Closes the file. Like File->Save.. in your editor.
+. read - Reads the contents of the file. You can assign the result to a variable.
+. readline - Reads just one line of a text file.
+. truncate - Empties the file. Watch out if you care about the file.
+. write('stuff') - Writes "stuff" to the file.
+. seek(0) - Move the read/write location to the beginning of the file.
+
+
+. open(file, mode='r', buffering=-1, encoding=None, erros=None, newline=None,
+       closefd=True, opener=None)
+  - file = text or byte string giving the name and the path if the file ish't in the current
+    working directory.
+  - mode = is an opcional string that specifies the mode in which the file is opened:
+        'r' open for reading (default)
+        'w' open for writing, truncate the file first
+        'x' create a new file and open it for writing
+        'a' open for writing, appending to the end of the file if it exists
+        'b' binary mode
+        't' text mode (default)
+        '+' open a disk file for updating (reading and writing)
+        'U' universal new line mode (deprecated)
+        note: In text mode, if encoding is not specified the encoding used is plarform
+              dependent.
+
+  
