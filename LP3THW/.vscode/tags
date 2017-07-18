@@ -4,6 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IN_FILE	../ex17.py	/^IN_FILE = open(FROM_FILE).read()$/;"	kind:variable	line:11
+OUT_FILE	../ex17.py	/^OUT_FILE = open(TO_FILE, 'w').write(IN_FILE)$/;"	kind:variable	line:19
 age	../ex11.py	/^age = input()$/;"	kind:variable	line:2
 age	../ex12.py	/^age = input("How old are you?")$/;"	kind:variable	line:1
 age	../ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
@@ -20,6 +22,8 @@ ex13.py	../ex13.py	1;"	kind:file	line:1
 ex14.py	../ex14.py	1;"	kind:file	line:1
 ex15.py	../ex15.py	1;"	kind:file	line:1
 ex16.py	../ex16.py	1;"	kind:file	line:1
+ex16_study_drill_2.py	../ex16_study_drill_2.py	1;"	kind:file	line:1
+ex16_study_drill_3.py	../ex16_study_drill_3.py	1;"	kind:file	line:1
 ex17.py	../ex17.py	1;"	kind:file	line:1
 ex18.py	../ex18.py	1;"	kind:file	line:1
 ex19.py	../ex19.py	1;"	kind:file	line:1
@@ -65,10 +69,14 @@ hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:77
 hello	../zork-py-master/zork.py	/^			hello = 2$/;"	kind:variable	line:81
 hilarious	../ex6.py	/^hilarious = False$/;"	kind:variable	line:14
 joke_evaluation	../ex6.py	/^joke_evaluation = "Isn't that joke so funny?! {}"$/;"	kind:variable	line:16
+languages	../ex23.py	/^languages = open("languages.txt", encoding="utf-8")$/;"	kind:variable	line:20
 last_inp	../zork-py-master/zork.py	/^			last_inp = input("What do you do? ")$/;"	kind:variable	line:190
 line1	../ex16.py	/^line1 = input("line 1: ")$/;"	kind:variable	line:19
+line1	../ex16_study_drill_3.py	/^line1 = input("line 1: ")$/;"	kind:variable	line:19
 line2	../ex16.py	/^line2 = input("line 2: ")$/;"	kind:variable	line:20
+line2	../ex16_study_drill_3.py	/^line2 = input("line 2: ")$/;"	kind:variable	line:20
 line3	../ex16.py	/^line3 = input("line 3: ")$/;"	kind:variable	line:21
+line3	../ex16_study_drill_3.py	/^line3 = input("line 3: ")$/;"	kind:variable	line:21
 loop	../zork-py-master/zork.py	/^				loop = 3$/;"	kind:variable	line:176
 loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:132
 loop	../zork-py-master/zork.py	/^			loop = 10$/;"	kind:variable	line:150
@@ -103,15 +111,20 @@ loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:42
 loop	../zork-py-master/zork.py	/^		loop = 4$/;"	kind:variable	line:47
 loop	../zork-py-master/zork.py	/^		loop = 8$/;"	kind:variable	line:44
 loop	../zork-py-master/zork.py	/^loop = 3$/;"	kind:variable	line:3
+main	../ex23.py	/^def main(language_file, encoding, errors):$/;"	kind:function	line:5
 name	../ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
 name	../ex7.py	/^name = input("Who?: ")$/;"	kind:variable	line:12
 persian_cat	../ex10.py	/^persian_cat = "I'm split\\non a line."$/;"	kind:variable	line:2
+print_line	../ex23.py	/^def print_line(line, encoding, errors):$/;"	kind:function	line:13
 second	../zork-py-master/zork.py	/^			second = input("What do you do? ")$/;"	kind:variable	line:57
 subjective_state	../ex7.py	/^\\tBe frank!!! >>> ")$/;"	kind:variable	line:16
 suicide_inp	../zork-py-master/zork.py	/^			suicide_inp = input("Do you want to continue? Y\/N ")$/;"	kind:variable	line:171
 tabby_cat	../ex10.py	/^tabby_cat = "\\tI'm tabbed in."$/;"	kind:variable	line:1
 target	../ex16.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
+target	../ex16_study_drill_3.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
 teeth	../ex5.py	/^teeth = 'White'$/;"	kind:variable	line:8
+text_2_write	../ex16_study_drill_3.py	/^text_2_write = f"{line1}\\n{line2}\\n{line3}\\n"$/;"	kind:variable	line:25
+text_in_file	../ex16_study_drill_2.py	/^    text_in_file = file_2_read.read()$/;"	kind:variable	line:9
 total	../ex5.py	/^total = age + height + weight$/;"	kind:variable	line:19
 types_of_people	../ex6.py	/^types_of_people = 10$/;"	kind:variable	line:1
 w	../ex6.py	/^w = "This is the left side of..."$/;"	kind:variable	line:20

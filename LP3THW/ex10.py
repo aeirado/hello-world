@@ -29,4 +29,4 @@ print("\t* \N{cat}")
 # \Uxxxxxxxx = Character with 32-bit hex value xxxxxxxx
 # \v = Vertical tab (VT)
 # \ooo = Character with octal value ooo
-# \xhh = Cuatavter with hex value hh
+# \xhh = Character with hex value hh
