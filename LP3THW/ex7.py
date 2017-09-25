@@ -1,19 +1,27 @@
-# This is not the exercise 7
-# This study drill of thirteen exercise
+# Prints a string to the stdout
+print("Mary had a little lamb.")
+# Insert 'snow' to the string and prints it to stdout
+print("Its fleece was white as {}.".format("snow"))
+# idem line 2
+print("And everywhere that Mary went.")
+# Compose a new strig expand it ten tymes (..........) and prints to stdout
+print("." * 10) # what'd that do?
 
-from sys import argv
+end1 = "C"
+end2 = "h"
+end3 = "e"
+end4 = "e"
+end5 = "s"
+end6 = "e"
+end7 = "B"
+end8 = "u"
+end9 = "r"
+end10 = "g"
+end11 = "e"
+end12 = "r"
 
-script, one, two, three = argv
-
-print("What do you think the first argument is:", one)
-print("If the second argument is equal to the first one,")
-print("who was typed in?")
-print("The second argument is:", two)
-name = input("Who?: ")
-print(f'Ah! {name} you are a tricky man/woman!!!')
-print('And now... the third argument is:', three)
-subjective_state = input("How do you feel with this kind of exercise?\n\
-\tBe frank!!! >>> ")
-print(f"You are {subjective_state} by the exercices.")
-print("But, I'm shure your desire is strong enough to keep you inside the \
-game!")
+# watch that comma at the end. try removing it to see what happens
+# Concatenates 6 6 variables to compose a string and prints it without a new line
+print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
+# Same as above but with a new line in the end
+print(end7 + end8 + end9 + end10 + end11 + end12)

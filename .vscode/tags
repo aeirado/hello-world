@@ -1,0 +1,222 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+IN_FILE	../LP3THW/ex17.py	/^IN_FILE = open(FROM_FILE).read()$/;"	kind:variable	line:11
+OUT_FILE	../LP3THW/ex17.py	/^OUT_FILE = open(TO_FILE, 'w').write(IN_FILE)$/;"	kind:variable	line:19
+ProjetoDama.py	../Damas/Damas/ProjetoDama.py	1;"	kind:file	line:1
+add	../LPTHW/ex21.py	/^def add(a, b):$/;"	kind:function	line:1
+adds	../LPTHW/ex21.py	/^adds = add(30, 20)$/;"	kind:variable	line:48
+age	../LP3THW/ex11.py	/^age = input()$/;"	kind:variable	line:2
+age	../LP3THW/ex12.py	/^age = input("How old are you?")$/;"	kind:variable	line:1
+age	../LP3THW/ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
+age	../LPTHW/ex21.py	/^age = add(30, 5)$/;"	kind:variable	line:24
+age	../LPTHW/ex5.py	/^age = 35 # not a lie$/;"	kind:variable	line:2
+average_passengers_per_car	../LPTHW/ex4.py	/^average_passengers_per_car = passengers \/ cars_driven$/;"	kind:variable	line:10
+binary	../LP3THW/ex6.py	/^binary = "binary"$/;"	kind:variable	line:4
+blackslash_cat	../LP3THW/ex10.py	/^blackslash_cat = "I'm \\\\ a \\\\ cat."$/;"	kind:variable	line:3
+carpool_capacity	../LPTHW/ex4.py	/^carpool_capacity = cars_driven * space_in_car$/;"	kind:variable	line:9
+cars	../LPTHW/ex4.py	/^cars = 100$/;"	kind:variable	line:3
+cars_driven	../LPTHW/ex4.py	/^cars_driven = drivers$/;"	kind:variable	line:8
+cars_not_driven	../LPTHW/ex4.py	/^cars_not_driven = cars - drivers$/;"	kind:variable	line:7
+cave_inp	../LP3THW/zork-py-master/zork.py	/^            cave_inp = input("What do you do? ")$/;"	kind:variable	line:144
+computer	../LPTHW/ex14.py	/^computer = raw_input(prompt)$/;"	kind:variable	line:16
+copy_file.py	../LPTHW/copy_file.py	1;"	kind:file	line:1
+criaTabuleiro	../Damas/Damas/ProjetoDama.py	/^def criaTabuleiro():$/;"	kind:function	line:4
+divide	../LPTHW/ex21.py	/^def divide(a, b):$/;"	kind:function	line:16
+divs	../LPTHW/ex21.py	/^divs = divide(270, 3)$/;"	kind:variable	line:54
+do_not	../LP3THW/ex6.py	/^do_not = "don't"$/;"	kind:variable	line:5
+drivers	../LPTHW/ex4.py	/^drivers = 30$/;"	kind:variable	line:5
+e	../LP3THW/ex6.py	/^e = "a string with a right side."$/;"	kind:variable	line:21
+ex1.py	../LP3THW/ex1.py	1;"	kind:file	line:1
+ex1.py	../LPTHW/ex1.py	1;"	kind:file	line:1
+ex10.py	../LP3THW/ex10.py	1;"	kind:file	line:1
+ex10.py	../LPTHW/ex10.py	1;"	kind:file	line:1
+ex11.py	../LP3THW/ex11.py	1;"	kind:file	line:1
+ex11.py	../LPTHW/ex11.py	1;"	kind:file	line:1
+ex12.py	../LP3THW/ex12.py	1;"	kind:file	line:1
+ex12.py	../LPTHW/ex12.py	1;"	kind:file	line:1
+ex13.py	../LP3THW/ex13.py	1;"	kind:file	line:1
+ex13.py	../LPTHW/ex13.py	1;"	kind:file	line:1
+ex14.py	../LP3THW/ex14.py	1;"	kind:file	line:1
+ex14.py	../LPTHW/ex14.py	1;"	kind:file	line:1
+ex15.py	../LP3THW/ex15.py	1;"	kind:file	line:1
+ex15.py	../LPTHW/ex15.py	1;"	kind:file	line:1
+ex16.py	../LP3THW/ex16.py	1;"	kind:file	line:1
+ex16.py	../LPTHW/ex16.py	1;"	kind:file	line:1
+ex16_read_.py	../LPTHW/ex16_read_.py	1;"	kind:file	line:1
+ex16_study_drill_2.py	../LP3THW/ex16_study_drill_2.py	1;"	kind:file	line:1
+ex16_study_drill_3.py	../LP3THW/ex16_study_drill_3.py	1;"	kind:file	line:1
+ex17.py	../LP3THW/ex17.py	1;"	kind:file	line:1
+ex17.py	../LPTHW/ex17.py	1;"	kind:file	line:1
+ex18.py	../LP3THW/ex18.py	1;"	kind:file	line:1
+ex18.py	../LPTHW/ex18.py	1;"	kind:file	line:1
+ex19.py	../LP3THW/ex19.py	1;"	kind:file	line:1
+ex2.py	../LP3THW/ex2.py	1;"	kind:file	line:1
+ex2.py	../LPTHW/ex2.py	1;"	kind:file	line:1
+ex20.py	../LP3THW/ex20.py	1;"	kind:file	line:1
+ex21.py	../LP3THW/ex21.py	1;"	kind:file	line:1
+ex21.py	../LPTHW/ex21.py	1;"	kind:file	line:1
+ex22.py	../LP3THW/ex22.py	1;"	kind:file	line:1
+ex23.py	../LP3THW/ex23.py	1;"	kind:file	line:1
+ex24.py	../LP3THW/ex24.py	1;"	kind:file	line:1
+ex25.py	../LP3THW/ex25.py	1;"	kind:file	line:1
+ex26.py	../LP3THW/ex26.py	1;"	kind:file	line:1
+ex27.py	../LP3THW/ex27.py	1;"	kind:file	line:1
+ex28.py	../LP3THW/ex28.py	1;"	kind:file	line:1
+ex29.py	../LP3THW/ex29.py	1;"	kind:file	line:1
+ex3.py	../LP3THW/ex3.py	1;"	kind:file	line:1
+ex3.py	../LPTHW/ex3.py	1;"	kind:file	line:1
+ex30.py	../LP3THW/ex30.py	1;"	kind:file	line:1
+ex31.py	../LP3THW/ex31.py	1;"	kind:file	line:1
+ex32.py	../LP3THW/ex32.py	1;"	kind:file	line:1
+ex33.py	../LP3THW/ex33.py	1;"	kind:file	line:1
+ex34.py	../LP3THW/ex34.py	1;"	kind:file	line:1
+ex35.py	../LP3THW/ex35.py	1;"	kind:file	line:1
+ex4.py	../LP3THW/ex4.py	1;"	kind:file	line:1
+ex4.py	../LPTHW/ex4.py	1;"	kind:file	line:1
+ex5.py	../LP3THW/ex5.py	1;"	kind:file	line:1
+ex5.py	../LPTHW/ex5.py	1;"	kind:file	line:1
+ex6.py	../LP3THW/ex6.py	1;"	kind:file	line:1
+ex7.py	../LP3THW/ex7.py	1;"	kind:file	line:1
+ex7.py	../LPTHW/ex7.py	1;"	kind:file	line:1
+ex8.py	../LP3THW/ex8.py	1;"	kind:file	line:1
+ex8.py	../LPTHW/ex8.py	1;"	kind:file	line:1
+ex9.py	../LP3THW/ex9.py	1;"	kind:file	line:1
+ex9.py	../LPTHW/ex9.py	1;"	kind:file	line:1
+exit_inp	../LP3THW/zork-py-master/zork.py	/^        exit_inp = input("Do you want to continue? Y\/N ")$/;"	kind:variable	line:199
+eyes	../LP3THW/ex5.py	/^eyes = 'Blue'$/;"	kind:variable	line:7
+eyes	../LPTHW/ex5.py	/^eyes = 'Blue'$/;"	kind:variable	line:5
+file_again	../LPTHW/ex15.py	/^file_again = raw_input("> ")$/;"	kind:variable	line:12
+first	../LP3THW/zork-py-master/zork.py	/^    first = input("What do you do? ")$/;"	kind:variable	line:14
+forest_inp	../LP3THW/zork-py-master/zork.py	/^            forest_inp = input("What do you do? ")$/;"	kind:variable	line:100
+formula	../LPTHW/ex21.py	/^formula = 50 + (200 - (130 * (90 \/ 3)))$/;"	kind:variable	line:42
+formula_functions	../LPTHW/ex21.py	/^formula_functions = add(adds, subtract(subs, multiply(mults, divide(divs, 3))))$/;"	kind:variable	line:58
+grating_inp	../LP3THW/zork-py-master/zork.py	/^            grating_inp = input("What do you do? ")$/;"	kind:variable	line:126
+hair	../LP3THW/ex5.py	/^hair = 'Brown'$/;"	kind:variable	line:9
+hair	../LPTHW/ex5.py	/^hair = 'Brown'$/;"	kind:variable	line:7
+height	../LP3THW/ex11.py	/^height = input()$/;"	kind:variable	line:4
+height	../LP3THW/ex12.py	/^height = input("How tall are you?")$/;"	kind:variable	line:2
+height	../LP3THW/ex5.py	/^height = 74 # inches$/;"	kind:variable	line:3
+height	../LPTHW/ex21.py	/^height = subtract(78, 4)$/;"	kind:variable	line:25
+height	../LPTHW/ex5.py	/^height = 74 # inches$/;"	kind:variable	line:3
+height_cm	../LP3THW/ex5.py	/^height_cm = height * 2.54$/;"	kind:variable	line:4
+height_inches2centimeters	../LPTHW/ex5.py	/^height_inches2centimeters = height * 2.54$/;"	kind:variable	line:8
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:61
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:65
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:69
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:73
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:77
+hello	../LP3THW/zork-py-master/zork.py	/^            hello = 2$/;"	kind:variable	line:81
+hilarious	../LP3THW/ex6.py	/^hilarious = False$/;"	kind:variable	line:14
+imprimeTabuleiro	../Damas/Damas/ProjetoDama.py	/^def imprimeTabuleiro(tabuleiro):$/;"	kind:function	line:154
+in_file	../LPTHW/ex17.py	/^in_file = open(from_file)$/;"	kind:variable	line:9
+indata	../LPTHW/ex17.py	/^indata = in_file.read()$/;"	kind:variable	line:10
+inicializaTabuleiro	../Damas/Damas/ProjetoDama.py	/^def inicializaTabuleiro(tabuleiro):$/;"	kind:function	line:36
+iq	../LPTHW/ex21.py	/^iq = divide(100, 2)$/;"	kind:variable	line:27
+jogarDama.py	../Damas/Damas/jogarDama.py	1;"	kind:file	line:1
+joke_evaluation	../LP3THW/ex6.py	/^joke_evaluation = "Isn't that joke so funny?! {}"$/;"	kind:variable	line:16
+languages	../LP3THW/ex23.py	/^languages = open("languages.txt", encoding="utf-8")$/;"	kind:variable	line:20
+last_inp	../LP3THW/zork-py-master/zork.py	/^            last_inp = input("What do you do? ")$/;"	kind:variable	line:190
+likes	../LPTHW/ex14.py	/^likes = raw_input(prompt)$/;"	kind:variable	line:10
+line1	../LP3THW/ex16.py	/^line1 = input("line 1: ")$/;"	kind:variable	line:19
+line1	../LP3THW/ex16_study_drill_3.py	/^line1 = input("line 1: ")$/;"	kind:variable	line:19
+line1	../LPTHW/ex16.py	/^line1 = raw_input("line 1: ")$/;"	kind:variable	line:19
+line2	../LP3THW/ex16.py	/^line2 = input("line 2: ")$/;"	kind:variable	line:20
+line2	../LP3THW/ex16_study_drill_3.py	/^line2 = input("line 2: ")$/;"	kind:variable	line:20
+line2	../LPTHW/ex16.py	/^line2 = raw_input("line 2: ")$/;"	kind:variable	line:20
+line3	../LP3THW/ex16.py	/^line3 = input("line 3: ")$/;"	kind:variable	line:21
+line3	../LP3THW/ex16_study_drill_3.py	/^line3 = input("line 3: ")$/;"	kind:variable	line:21
+line3	../LPTHW/ex16.py	/^line3 = raw_input("line 3: ")$/;"	kind:variable	line:21
+lives	../LPTHW/ex14.py	/^lives = raw_input(prompt)$/;"	kind:variable	line:13
+loop	../LP3THW/zork-py-master/zork.py	/^                loop = 3$/;"	kind:variable	line:176
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:132
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:150
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:154
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:158
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:162
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 10$/;"	kind:variable	line:181
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 11$/;"	kind:variable	line:146
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 11$/;"	kind:variable	line:164
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 11$/;"	kind:variable	line:166
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 11$/;"	kind:variable	line:178
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 11$/;"	kind:variable	line:196
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 3$/;"	kind:variable	line:204
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 4$/;"	kind:variable	line:87
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 4$/;"	kind:variable	line:92
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:104
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:108
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:112
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:117
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:83
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 8$/;"	kind:variable	line:89
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 9    $/;"	kind:variable	line:135
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 9$/;"	kind:variable	line:114
+loop	../LP3THW/zork-py-master/zork.py	/^            loop = 9$/;"	kind:variable	line:130
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:18
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:22
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:26
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:30
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:34
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:38
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:42
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 4$/;"	kind:variable	line:47
+loop	../LP3THW/zork-py-master/zork.py	/^        loop = 8$/;"	kind:variable	line:44
+loop	../LP3THW/zork-py-master/zork.py	/^loop = 3$/;"	kind:variable	line:3
+main	../LP3THW/ex23.py	/^def main(language_file, encoding, errors):$/;"	kind:function	line:5
+movePeca	../Damas/Damas/ProjetoDama.py	/^def movePeca(tabuleiro, posicaoIni, posicaoFim):$/;"	kind:function	line:114
+multiply	../LPTHW/ex21.py	/^def multiply(a, b):$/;"	kind:function	line:11
+mults	../LPTHW/ex21.py	/^mults = multiply(65, 2)$/;"	kind:variable	line:52
+name	../LP3THW/ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
+name	../LP3THW/ex7.py	/^name = input("Who?: ")$/;"	kind:variable	line:12
+name	../LPTHW/ex5.py	/^name = 'Zed A. Shaw'$/;"	kind:variable	line:1
+op	../Damas/Damas/jogarDama.py	/^    op = raw_input()$/;"	kind:variable	line:30
+out_file	../LPTHW/ex17.py	/^out_file = open(to_file, 'w')$/;"	kind:variable	line:18
+passengers	../LPTHW/ex4.py	/^passengers = 90$/;"	kind:variable	line:6
+persian_cat	../LP3THW/ex10.py	/^persian_cat = "I'm split\\non a line."$/;"	kind:variable	line:2
+print_line	../LP3THW/ex23.py	/^def print_line(line, encoding, errors):$/;"	kind:function	line:13
+print_none	../LPTHW/ex18.py	/^def print_none():$/;"	kind:function	line:15
+print_one	../LPTHW/ex18.py	/^def print_one(arg1):$/;"	kind:function	line:11
+print_two	../LPTHW/ex18.py	/^def print_two(*args):$/;"	kind:function	line:2
+print_two_again	../LPTHW/ex18.py	/^def print_two_again(arg1, arg2):$/;"	kind:function	line:7
+prompt	../LPTHW/ex14.py	/^prompt = '> '$/;"	kind:variable	line:5
+retornaPeca	../Damas/Damas/ProjetoDama.py	/^def retornaPeca(tabuleiro, posicao):$/;"	kind:function	line:96
+second	../LP3THW/zork-py-master/zork.py	/^            second = input("What do you do? ")$/;"	kind:variable	line:57
+space_in_car	../LPTHW/ex4.py	/^space_in_car = 4.0$/;"	kind:variable	line:4
+subjective_state	../LP3THW/ex7.py	/^\\tBe frank!!! >>> ")$/;"	kind:variable	line:16
+subs	../LPTHW/ex21.py	/^subs = subtract(270, 70)$/;"	kind:variable	line:50
+subtract	../LPTHW/ex21.py	/^def subtract(a, b):$/;"	kind:function	line:6
+suicide_inp	../LP3THW/zork-py-master/zork.py	/^            suicide_inp = input("Do you want to continue? Y\/N ")$/;"	kind:variable	line:171
+tabby_cat	../LP3THW/ex10.py	/^tabby_cat = "\\tI'm tabbed in."$/;"	kind:variable	line:1
+tabuleiro	../Damas/Damas/ProjetoDama.py	/^tabuleiro = criaTabuleiro()$/;"	kind:variable	line:20
+tabuleiro	../Damas/Damas/ProjetoDama.py	/^tabuleiro = inicializaTabuleiro(tabuleiro)$/;"	kind:variable	line:94
+tabuleiro	../Damas/Damas/jogarDama.py	/^tabuleiro = ProjetoDama.criaTabuleiro()$/;"	kind:variable	line:15
+tabuleiro	../Damas/Damas/jogarDama.py	/^tabuleiro = ProjetoDama.inicializaTabuleiro(tabuleiro)$/;"	kind:variable	line:16
+target	../LP3THW/ex16.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
+target	../LP3THW/ex16_study_drill_3.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
+target	../LPTHW/ex16.py	/^target = open(filename, 'w')$/;"	kind:variable	line:12
+teeth	../LP3THW/ex5.py	/^teeth = 'White'$/;"	kind:variable	line:8
+teeth	../LPTHW/ex5.py	/^teeth = "White"$/;"	kind:variable	line:6
+text	../LPTHW/ex16_read_.py	/^text = txt.read()$/;"	kind:variable	line:8
+text_2_write	../LP3THW/ex16_study_drill_3.py	/^text_2_write = f"{line1}\\n{line2}\\n{line3}\\n"$/;"	kind:variable	line:25
+text_in_file	../LP3THW/ex16_study_drill_2.py	/^    text_in_file = file_2_read.read()$/;"	kind:variable	line:9
+total	../LP3THW/ex5.py	/^total = age + height + weight$/;"	kind:variable	line:19
+txt	../LPTHW/ex15.py	/^txt = open(filename)$/;"	kind:variable	line:5
+txt	../LPTHW/ex16_read_.py	/^txt = open(filename)$/;"	kind:variable	line:4
+txt_again	../LPTHW/ex15.py	/^txt_again = open(file_again)$/;"	kind:variable	line:14
+types_of_people	../LP3THW/ex6.py	/^types_of_people = 10$/;"	kind:variable	line:1
+verificaTamanhoTabuleiro	../Damas/Damas/ProjetoDama.py	/^def verificaTamanhoTabuleiro(tabuleiro):$/;"	kind:function	line:23
+w	../LP3THW/ex6.py	/^w = "This is the left side of..."$/;"	kind:variable	line:20
+weight	../LP3THW/ex11.py	/^weight = input()$/;"	kind:variable	line:6
+weight	../LP3THW/ex12.py	/^weight = input("How much do you weigh?")$/;"	kind:variable	line:3
+weight	../LP3THW/ex5.py	/^weight = 180 # lbs$/;"	kind:variable	line:5
+weight	../LPTHW/ex21.py	/^weight = multiply(90, 2)$/;"	kind:variable	line:26
+weight	../LPTHW/ex5.py	/^weight = 180 # lbs$/;"	kind:variable	line:4
+weight_kg	../LP3THW/ex5.py	/^weight_kg = weight * 0.45359237$/;"	kind:variable	line:6
+weight_lbs2kg	../LPTHW/ex5.py	/^weight_lbs2kg = weight * 0.453592$/;"	kind:variable	line:9
+what	../LPTHW/ex21.py	/^what = add(age, subtract(height, multiply(weight, divide(iq, 2))))$/;"	kind:variable	line:37
+x	../LP3THW/ex6.py	/^x = f"There are {types_of_people} types of people."$/;"	kind:variable	line:2
+y	../LP3THW/ex6.py	/^y = f"Those who know {binary} and those who {do_not}."$/;"	kind:variable	line:6
+zork.py	../LP3THW/zork-py-master/zork.py	1;"	kind:file	line:1

@@ -1,0 +1,8 @@
+Descrição Geral:
+    . A aplicação tem como objetivo fazer um 'bando de dados' (DB) dos arquivos em um diretório e seus subdiretórios (path) e listar (fazer 'relatório' de) os arquivos duplicados.
+    . Ela permitirá decidir entre 'deletar', mover', copiar' e/ou 'renomear' os arquivos.
+    . Ela permitirá escolher incluir ou excluir subdiretórios e/ou arquivos, tipos de arquivos, arquivos de certo tamanho...
+    . Ela identificará os arquivos por hash, nome, tamanho, datas, tipo, diretório, tags (autor, assunto, categoria...)
+
+1) Etapas ou módulos:
+    . Interface do usuário

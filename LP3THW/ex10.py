@@ -7,13 +7,13 @@ I'll do a list:
 \t* Cat food
 \t* Fishies
 \t* Catnip\n\t* Grass
+\t* \N{cat}
 """
 
 print(tabby_cat)
 print(persian_cat)
 print(blackslash_cat)
 print(fat_cat)
-print("\t* \N{cat}")
 
 # \\ = blackslash
 # \' = single quote

@@ -20,7 +20,6 @@ OUT_FILE = open(TO_FILE, 'w').write(IN_FILE)
 
 # kind_of_OUT_FILE = str(type(OUT_FILE))
 # kind_of_IN_FILE = str(type(IN_FILE))
-
 # print(f'Type of OUT_FILE is: {kind_of_OUT_FILE}\n\
 # Type of IN_FILE is: {kind_of_IN_FILE}')
 
