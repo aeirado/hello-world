@@ -24,4 +24,53 @@ Methods/Functions
         note: In text mode, if encoding is not specified the encoding used is plarform
               dependent.
 
-  
+
+SYMBOLS:
+#Punctuation
+apostrophe	’  '
+brackets	[ ]
+parentheses  ( )
+curly braces  { }
+angle brackets or chevrons  ⟨ ⟩
+colon	:
+comma	,  ،  、
+dash	‒  –  —  ―
+ellipsis	…  ...  ⋯  ᠁  ฯ
+exclamation mark	 !
+full stop, period	.
+guillemets	‹ ›  « »
+hyphen	‐
+hyphen-minus	-
+question mark	 ?
+quotation marks	‘ ’  “ ”  ' '  " "
+semicolon	;
+slash, stroke, solidus	/  ⁄
+       
+#General typography
+ampersand	&
+asterisk	*
+at sign	@
+backslash	\
+bullet	•
+caret	^
+dagger	† ‡
+degree	°
+ditto mark	”
+inverted exclamation mark	¡
+inverted question mark	¿
+note	※
+number sign, pound, hash, octothorpe	#
+numero sign	№
+obelus	÷
+multiplication sign	×
+ordinal indicator	º ª
+percent, per mil	 % ‰
+plus and minus	+ −
+equals sign	=
+basis point	‱
+pilcrow	¶
+prime	′  ″  ‴
+section sign	§
+tilde	~
+underscore, understrike	_
+vertical bar, pipe, broken bar	|  ‖  ¦
