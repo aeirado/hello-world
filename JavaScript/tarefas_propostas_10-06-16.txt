@@ -1,0 +1,12 @@
+A) Transformar o programa de ordem alf em uma sub-rotina para outro programa.
+	Este outro programa tem 3 partes:
+		1- abrir um arquivo
+		2- chamar a sub rotina (posso fazer como um script separado ou uma só função)
+		3- gravar o arquivo
+
+B) Olhar o q é input no html e fazer um teste básico
+C) Definir as estruturas internas de um tabuleiro de damas, suas
+   peças e as regras de movimento
+    .Representa na página html como for mais fácil
+    .Usar o input para mover as peças
+    .Fazer crítica de input ilegal

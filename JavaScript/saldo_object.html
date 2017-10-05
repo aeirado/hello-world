@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Saldo!</title>
+</head>
+<body>
+<pre>
+
+<script type="text/javascript">
+// Objeto Saldo. Treinando OOP em JavaScript.
+function Saldo(valor) {
+    this.saldo = valor; // propriedade
+    this.saque = saque; // função
+    this.deposito = deposito; // função
+    this.mostra_saldo = mostra_saldo; // função
+}
+
+function deposito(valor) {
+    this.saldo += valor;
+}
+
+function saque(valor) {
+    if (valor <= this.saldo) {
+        this.saldo -= valor;
+    }
+    if (valor > this.saldo) {
+        document.writeln("\nVocê não tem fundos suficientes\npara fazer esse saque!\n");
+    }
+}
+
+function mostra_saldo() {
+    return "Saldo: " + this.saldo;
+}
+
+var conta = new Saldo(500);
+conta.deposito(1000);
+document.writeln(conta.mostra_saldo());
+conta.saque(600);
+document.writeln(conta.mostra_saldo());
+conta.saque(1000);
+document.writeln(conta.mostra_saldo());
+</script>
+
+</pre>
+</body>
+</html>

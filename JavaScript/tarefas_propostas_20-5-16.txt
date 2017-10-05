@@ -1,0 +1,52 @@
+1 - programa para gerar um array de numeros inteiros aleatórios e verificar se são inteiros mesmo;
+2 - programa para ordenar um array de strings em ordem alfabética;
+3 - programa para gerar um array de nomes e depois colocar na forma "sobrenome, nome" e em ordem alfabética.
+
+OBS: Pensar em resolver de forma estruturada.
+
+========================================================================
+PENSANDO EM 3: PROGRAMA PARA GERAR UM ARRAY DE NOMES E DEPOIS COLOCAR NA FORMA "SOBRENOME, NOME" E EM ORDEM ALFABÉTICA.
+========================================================================
+1 - O que é um nome como dado do meu programa?
+    I. A forma mais fácil é fazer na mão ";-)", mas isso significa trabalhar com poucos casos.
+
+    II. Outra é buscar uma lista de nomes próprios e sobrenomes em português como, por exemplo, um arquivo txt. Para compor o NOME posso pegar 2 listas (list_nome, list_sobrenome) escolher pseudo-aleatoriamente um item de cada lista e juntar em um array NOMES. 
+        Problemas de implementação:
+            . random choice: 
+                Exemplo de código para colher um item aleatório:
+                var nome_rand = list_nome[Math.floor(Math.random() * list_nome.length)];
+            . ler arquivo txt e guardar num array item por item:
+                Com o spiderMonkey (shell JS da Mozilla) interpretando o script, posso usar a função read(filename[, type]). Se type = string, a função lê o conteudo do arquivo e retorna uma string UTF-8 que posso atribuir a uma variável type array usando o método string.split(",") se o arquivo contiver uma string de nomes separados por vírgula.
+                Então:
+                Variáveis necessárias:
+                    var NOMES = [], tamanho_NOMES = "número inteiro > que 2";
+
+                Funções:
+                    function gerar_NOMES (tamanho_NOMES){
+                        var nome;
+                        var nomes = read(nomes.txt, string).split(',');
+                        var sobrenomes = read(sobrenomes.txt, string).split(',');
+                        for (var i = 0; i <= tamanho_NOMES - 1, i++){
+                            var nome_rand = nomes[Math.floor(Math.random() * nomes.length)];
+                            var sobrenome_rand = sobrenomes[Math.floor(Math.random() * sobrenomes.length)];
+                            nome = nome_rand + sobrenome_rand + ", ";
+                            NOMES[i] = nome;
+                        }
+                        return NOMES;
+                    }
+
+
+    III. Outra mais difícil, mas não precisa ler e parsear o arquivo txt em JavaScript, é construir uma função que gera os nomes e sobrenomes, por exemplo: definir um nome ou sobrenome como uma string de no máximo 15 caracteres e no mínimo 2 caracteres com a primeira letra em maiúscula. Para fins de exercício, esta definição está adequada.
+
+2 - Vou escolher a solução II e depois tentar destrinchar a solução III
+
+3 - Como colocar os NOMES na forma "sobrenome, nome"?
+    Posso colocar inicialmente uma "," no final de cada nome/sobrenome. Depois posso dividí-lo em nome e sobrenome e por último obter a forma sobrenome/nome concatenando "sobrenome, " + "nome".
+        Problema: o que fazer com os nomes compostos?
+            I. uma solução geral é abreviar todos os nomes menos o primeiro nome e o último sobrenome. Muitos nomes e/ou sobrenomes, no entanto, possuem a preposição "de" ou "de" + "a" ou + "o" como elemento de ligação. Por exemplo, "Carlos Alberto de Souza Campos" teria que ficar assim: "Campos, Carlos A. de S.". Seria fácil checar se no nome tem "de", "do" ou "da" ao acrescentar uma estrutura condicional de controle. Essa solução não é, no entanto, a mais comum, o melhor seria obter como resultado "Campos, Carlos Alberto de S." ou "Campos, Carlos Alberto de Souza"
+            II. outra solução mais simples é pensar que o último sobrenome sempre vai estar na forma "sobrenome," e vai sempre ser colocado no início da string. As formas abreviadas podem ser facultativas, ou seja, posso "dizer" ao programa para processar de uma ou outra forma de acordo com a vontade do cliente.
+
+4 - O que é ordenar alfabeticamente um array de nomes?
+    I. CARALHO!!! Como sou BURRO!!! ISTO AÍ É UMA MERDA TOTAL!!! Posso assumir que o primeiro nome é aquele que está na posição 0 do array. Ele será comparado com cada um dos outros em termos de maior ou menor. Qdo aparece um menor troco com ele. Assim, este nome ao final das comparações vai ficar na posição que é a dele, ou seja, será um item ordenado (IO). Depois divido o array em pos[0] até pos[IO] e pos[IO + 1] até pos[tamanho do array]. Para cada metade, faço a mesma coisa que para o array inicial recursivamente. Assim, terei na primeira vez 1 IO, na segunda vez + 2 IO, terceira + 4 IO, quarta + 8 IO....
+
+    II. Na verdade a coisa de botar em ordem alfabética é muito mais fácil. Meu dado primitivo é um array de strings. As strings/nomes são feitas de letras em número finito e podem ser alocadas no array segundo uma ordem espacífica pré-estabelecida: a ordem alfabética representada pelas posições sucessivas de um array/alfabeto ['a','b',...] ou mesmo uma string/alfabeto "abcd...". Trata-se de casos específicos: caso 1 -> todas as palavras que começam com A ou pos[0] = "A"; caso 2 -> todas as palavras que pos[0] = "B"; caso 3 -> todas as palavras que pos[0] = "C"; caso 4 -> todas as palavras pos[0] = "D"; e assim por diante. Qdo todos de cada caso estiverem uns com os outros repito a mesma coisa para as pos[0] e [1] de cada string do array (arr[0][0], arr[0][1]), só que com letras minúsculas, ou seja, p.ex., caso 1 -> todas as palavras cuja pos[0] = "A" e pos[1] = "a" etc. Isso é recursivo! Posso estabelecer a ordem alfabética para quantas posições eu quiser, só tenho que controlar o tamanho das palavras. Tenho que parar de ordenar uma palavra qdo tiver chegado a sua última letra. Por isso, tenho um caso extra: caso 0 -> (i == 0 até i == n) == tamanho da palavra, ou seja, i == tamanho. Também, palavras de 2 letras vêm antes das de 3 qdo as 2 primeiras são iguais, e assim por diante. Como essas palavras serão contiguas, elas irão de uma posição a outra do array sem salto. Que posições são essas? ; Se i for igual ao tamanho, então, a palavra está pronta para ser colocada definitivamente em sua posição do array naquele momento da comparação, ou seja, uma palavra de 2 letras vai se fixar no array no caso arr[1][posição da última letra dela].
