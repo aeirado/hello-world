@@ -4,9 +4,10 @@ from random import randint
 
 def quick_sort(array):
     '''
-    No quick quick_sort pega-se um número qualquer da lista
-    e reserva para comparar com os outros -> assim 
-    cria-se uma variável temp com esse número. 
+    No quick quick_sort recursivo pega-se um número
+    qualquer da lista e reserva para comparar com os
+    outros -> assim cria-se uma variável temp com esse
+    número. 
     Na fase de comparação divide-se a lista em duas:
     - lesser_than = todos os números menores que temp
     - greater_than = todos os números maiores que temp
@@ -36,8 +37,8 @@ def quick_sort(array):
 
 if __name__ == '__main__':
     A = []
-    for i in range(200):
-        A.append(randint(-100, 100))
+    for i in range(40):
+        A.append(randint(0, 1000))
     
     print(A)
     result = quick_sort(A)
