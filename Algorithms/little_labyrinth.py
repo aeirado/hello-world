@@ -10,6 +10,32 @@ LABYRINTH = [
 ['x', '-', '-', '-', '-', '-', '-', 'x'],
 ['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
 ]
+
+LABYRINTH_2 = [
+['x', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x'],
+['x', '-', 'x', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'x'],
+['x', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', '-', '-', 'x', 'x', '-', 'x', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'x'],
+['x', 'x', 'x', '-', 'x', 'x', '-', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', '-', 'x', 'x', '-', 'x', '-', 'x', '-', '-', '-', '-', 'x', '-', '-', '-', '-', '-', '-', 'x'],
+['x', '-', 'x', '-', '-', '-', '-', 'x', '-', 'x', '-', 'x', 'x', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x', '-', 'x', 'x', '-', 'x', '-', 'x', '-', '-', '-', '-', 'x'],
+['x', '-', 'x', '-', 'x', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', '-', 'x', '-', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', '-', '-', 'x', '-', 'x', '-', '-', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', 'x', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'x'],
+['x', '-', 'x', 'x', '-', '-', 'x', '-', '-', 'x', 'x', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', '-', '-', '-', '-', '-', '-', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', '-', '-', '-', '-', '-', '-', 'x', 'x', 'x', 'x', '-', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', '-', '-', '-', 'x', 'x', 'x', 'x', '-', '-', '-', '-', '-', '-', '-', 'x'],
+['x', '-', 'x', 'x', 'x', '-', 'x', '-', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', '-', '-', '-', '-', '-', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', '-', 'x', 'x', 'x', 'x', 'x', '-', 'x'],
+['x', 'x', 'x', 'x', 'x', '-', 'x', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', 'x'],
+['x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x', 'x']
+]
+
 GOAL = 'G'
 PERSON = '☺'
 WALL = 'x'
@@ -18,11 +44,11 @@ MSG1 = ''
 
 
 def print_maze_coordinates(maze):
-    print('\n{:^25}'.format('LABYRINTH'))
-    print(' ------------------------')
-    print('   1  2  3  4  5  6  7  8 ')
-    for i in range(8):
-        print('', i + 1, end=' ')
+    print('\n{:^68}'.format('L A B Y R I N T H'))
+    print(' -------------------------------------------------------------------')
+    print('   01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 ')
+    for i in range(22):
+        print('{:0>2}'.format(i + 1), end=' ')
         for j in maze[i]:
             print('{:' '<2}'.format(j), end=' ')
         print()
@@ -38,7 +64,7 @@ def true_coord(x, y):
     return coord
 
 
-def insert_G_P(maze, goal, person, gxy=(6, 1), pxy=(1, 6)):
+def insert_G_P(maze, goal, person, gxy=(1, 11), pxy=(19, 7)):
     gxy = true_coord(gxy[0], gxy[1])
     pxy = true_coord(pxy[0], pxy[1])
     maze[gxy[0]][gxy[1]] = goal
@@ -59,7 +85,7 @@ def map_maze(maze, wall):
     return maze_maped
 
 
-def count_distances(maze_maped, gxy=(5, 0), pxy=(0, 5)):
+def count_distances(maze_maped, gxy, pxy):
     def prepare_maze_map(maze_maped):
         for k in maze_maped.keys():
             maze_maped[k] = {"distance": 0, "father": None}
@@ -120,10 +146,6 @@ def count_distances(maze_maped, gxy=(5, 0), pxy=(0, 5)):
                     queue.append(adj)
                     exploreds.append(adj)
     maze[pxy] = {"distance": PERSON, "father": actual}
-    # for k in maze.keys():
-    #     for j in maze.keys():
-    #         if k == maze[j]['father']:
-    #             print(k, maze[k], '===>', j, maze[j])
     return maze
 
 
@@ -134,7 +156,7 @@ def label_distances(maze, maze_distances):
 
 
 if __name__ == "__main__":
-    lab, g_coord, p_coord = insert_G_P(LABYRINTH, GOAL, PERSON)
+    lab, g_coord, p_coord = insert_G_P(LABYRINTH_2, GOAL, PERSON)
     print_maze_coordinates(lab)
-    maze_distances = count_distances(map_maze(lab, WALL))
+    maze_distances = count_distances(map_maze(lab, WALL), g_coord, p_coord)
     print_maze_coordinates(label_distances(lab, maze_distances))
