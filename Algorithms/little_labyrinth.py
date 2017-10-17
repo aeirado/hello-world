@@ -113,7 +113,7 @@ def count_distances(maze_maped, gxy, pxy):
     de GOAL até  preencher todo o laririnto. O menor caminho a ser percorrido
     é aquele que chega até PERSON com o mínimo de passos.
     Usa-se uma estrutura dict para marcar a "distância" (número inteiro) e o
-    antecessor ("pai")
+    antecessor ("pai").
     Percorrendo o labirinto de PERSON até GOAL de pai em pai vai-se chegar a
     GOAL pelo menor caminho.
 
@@ -122,6 +122,14 @@ def count_distances(maze_maped, gxy, pxy):
         for k in maze_maped.keys():
             maze_maped[k] = {"distance": 0, "father": (0, 0)}
         return maze_maped
+
+
+    def update_dist_father(actual, queue, exploreds):
+        maze[adj] = {"distance": maze[actual]['distance'] + 1,
+                     "father": actual}
+        queue.append(adj)
+        exploreds.append(adj)
+
 
     maze = prepare_maze_map(maze_maped)
     maze[gxy] = {"distance": 0, "father": gxy}
@@ -139,40 +147,22 @@ def count_distances(maze_maped, gxy, pxy):
             adj_row, adj_col = adj[0], adj[1]
             if actual_row == 0 and actual_row + 1 == adj_row:
                 if actual_col == adj_col:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
             elif actual_row == 7 and actual_row - 1 == adj_row:
                 if actual_col == adj_col:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
             elif actual_col == 0 and actual_col + 1 == adj_col:
                 if actual_row == adj_row:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
             elif actual_col == 7 and actual_col - 1 == adj_col:
                 if actual_row == adj_row:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
             elif actual_row + 1 == adj_row or actual_row - 1 == adj_row:
                 if actual_col == adj_col:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
             elif actual_col + 1 == adj_col or actual_col - 1 == adj_col:
                 if actual_row == adj_row:
-                    maze[adj] = {"distance": maze[actual]['distance'] + 1,
-                                 "father": actual}
-                    queue.append(adj)
-                    exploreds.append(adj)
+                    update_dist_father(actual, queue, exploreds)
     maze[pxy]['distance'] = PERSON
     maze[gxy]['distance'] = GOAL
     return maze
