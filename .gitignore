@@ -1,0 +1,14 @@
+# ignore .vscode directory
+.vscode/
+
+# ignore .venvLPy3THW directory
+.venvLPy3THW/
+
+# ignore zip files
+*.zip
+
+# ignore Pycharm files
+.idea/
+
+# ignore pyenv file
+.python-version/
