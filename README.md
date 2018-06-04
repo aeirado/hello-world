@@ -1,3 +1,3 @@
 # hello-world
-Learn Python 3 The Hard Way exercises.
-Other uninteresting things!
+Tentativas de aprendizado de programação!!!
+FUJAM!!!
